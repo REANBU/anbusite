@@ -1,0 +1,171 @@
+body{
+    margin: 0 auto;
+    background-color: gray;
+}
+.container{
+    width: 1000px;
+    margin: auto;
+    background-color: red;
+}
+.logo > a > img{
+    width: 200px;
+    float: left;
+    padding: 15px;
+    }
+.clearfix{
+    clear: both;
+}
+.search{
+    float: right;
+    padding: 30px;
+}
+.navi{
+    background-color: brown;
+}
+.navi > ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.navi > ul > li{
+    display: inline-block;
+
+}
+.navi > ul > li > a{
+    color:black;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+}
+.navi > ul > li > a:hover{
+    background-color: blue;
+}
+.drop{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    position: absolute;
+    display: none;
+    font-family: sans-serif;
+}
+.drop > li > a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 5px;
+    font-size: small;
+    background-color:black;
+}
+.drop > li > a:hover{
+    background-color: blue;
+}
+.navi > ul > li:hover .drop{
+    display: block;
+}
+/* banner */
+.banner{
+    width: 1000px;
+    height: 445.73px;
+    overflow: hidden;
+}
+.banner img{
+    width: 100%;
+    height: auto;
+    
+}
+.contant{
+    padding: 15px;
+    float: left;
+}
+.contant > h3{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 0px;
+}
+.contant > p{
+    width: 700px;
+    font-family: sans-serif;
+    text-align: justify;
+    color: white;
+    margin: 5px
+}
+.side{
+    float: left;
+    margin: 60px;
+    padding: 15px;
+    font-family: sans-serif;
+}
+.side > h4{
+    font-weight: bold;
+    font-size: x-large;
+    margin: 0px;
+    padding: 0px;
+}
+.side > ul{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+.side > ul > a{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 1em;
+
+}
+.side > ul > a > li{
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+.main-foot{
+    width: 950px;
+    background-color: brown;
+    padding: 25px;
+    height: auto;
+}
+.foot{
+    width: 237.5px;
+    float: left;
+    height: auto;
+    font-family: sans-serif;
+}
+.foot > h4{
+    color:black
+}
+.foot > ul{
+    margin: 0px;
+    padding: 0px;
+    
+}
+.foot > ul > li{
+    list-style-type: none;
+    
+}
+.foot > ul > li > a{
+    text-decoration: none;
+    color: white;
+}
+.foot > address > h3{
+    color: black;
+}
+.foot > address > p{
+    color: white;
+}
+.foot > address > p > a{
+    text-decoration: none;
+    color: white;
+    font-size: small;
+}
+.copyr > p{
+    text-align: center;
+    margin: 5px;
+    font-size: small;
+    font-family: sans-serif;
+}
+.bags{
+    background-color: white;
+    float: left;
+}
