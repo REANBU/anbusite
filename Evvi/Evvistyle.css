@@ -169,3 +169,26 @@ body{
     background-color: white;
     float: left;
 }
+.contacth1{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: x-large;
+    margin: 0px;   
+}
+.signup{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: sans-serif;
+}
+.submitclass{
+    font-size: large;
+    color:black;
+    font-weight: bold;
+    padding: 5px;
+    background-color: darkorange;
+    border-radius: 20px;
+}
+.submitclass:hover{
+    background-color: blue;
+}
